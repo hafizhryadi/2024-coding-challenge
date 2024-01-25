@@ -13,6 +13,9 @@
 //     return bullets / 2 >= dragons;
 // }
 
+// pahlawan harus melawan naga
+// 1 naga = 2 peluru
+// true = menang, false = kalah
 const hero = (bullets, dragons) => bullets / 2 >= dragons;
 // const hero = (bullets, dragons) => bullets >= dragons * 2;
 
