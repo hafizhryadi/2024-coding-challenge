@@ -11,6 +11,8 @@
 //   };
 
 // const reverseSeq = (n) => [...Array(n)].map((el, i) => i+1).reverse();
+
+// mengurutkan angka dari terbesar
 const reverseSeq = (n) => [...Array(n)].map((el, i) => n-i);
 
 console.log(reverseSeq(5));
