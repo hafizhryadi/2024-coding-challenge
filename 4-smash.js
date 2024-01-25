@@ -5,6 +5,7 @@
 //     return words.join(' ');
 // };
 
+// menyatukan kata di dalam array
 // cara singkat
 const smash = (words) => words.join(' ');
 
