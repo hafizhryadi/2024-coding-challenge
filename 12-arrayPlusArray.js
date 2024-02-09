@@ -12,6 +12,7 @@
 //     return total;
 // }
 
+// versi dinamis jika ingin menambah array baru
 // function arrayPlusArray(arr1, arr2) {
 //     let total = 0;
 //     for (let i = 0; i < arguments.length; i++) {
