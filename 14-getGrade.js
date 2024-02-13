@@ -9,7 +9,7 @@
 // 0 <= score < 60	'F'
 
 function getGrade (...s) {
-    const score = s.reduce((acc, curr) => acc + curr) / s.length
+    const score = s.reduce((acc, curr) => acc + curr) / s.length;
     if (score < 60) return 'F'
     if (score < 70) return 'D'
     if (score < 80) return 'C'
