@@ -2,7 +2,6 @@
 // https://www.codewars.com/kata/58649884a1659ed6cb000072
 
 // function updateLight(current) {
-  
 //     if (current === 'green') {
 //         return 'yellow'
 //     } else if (current === 'yellow') {
@@ -10,11 +9,9 @@
 //     } else {
 //         return 'green'
 //     }
-  
 // }
 
 // function updateLight(current) {
-  
 //     switch (current) {
 //         case 'green': 
 //             return 'yellow'
@@ -23,7 +20,6 @@
 //         case 'red': 
 //             return 'green'
 //     }
-  
 // }
 
 const updateLight = (current) => current === 'green' ? 'yellow' : current === 'yellow' ? 'red' : 'green'
@@ -34,7 +30,6 @@ const updateLight = (current) => current === 'green' ? 'yellow' : current === 'y
 //     yellow : 'red',
 //     red : 'green',
 // }
-
 // function updateLight(current) {
 //   return rules[current]
 // }
