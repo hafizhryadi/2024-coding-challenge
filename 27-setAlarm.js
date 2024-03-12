@@ -17,7 +17,8 @@
 //     }
 // }
 
-const setAlarm = (employed, vacation) => employed && !vacation;
+//const setAlarm = (employed, vacation) => employed && !vacation;
+const setAlarm = (employed, vacation) => employed > vacation;
 
 
 console.log(setAlarm(true, true))
